@@ -2,7 +2,9 @@
 
 ## Registro de control — Plan de direccionamiento por VLAN
 
-Diseño final: 2 redes independientes, cada una en su propio switch. Cada switch tiene VLANs 10, 20, 30 y se conecta al router mediante un trunk en `Gig0/1`. **No hay trunk entre switches**, por lo que los IDs 10/20/30 se repiten sin colisión.
+Ejercicio práctico: separación de áreas mediante VLANs y router-on-a-stick. Para los conceptos teóricos ver `s2 - enrutamiento-intervlan.md`.
+
+Diseño: 2 redes independientes, cada una en su propio switch. Cada switch tiene VLANs 10, 20, 30 y se conecta al router mediante un trunk en `Gig0/1`. **No hay trunk entre switches**, por lo que los IDs 10/20/30 se repiten sin colisión.
 
 ### Topología
 
@@ -190,17 +192,4 @@ show ip route
 ping [ip-destino]
 ```
 
-## Configuración de nombres
 
-```bash
-enable
-configure terminal
-hostname [nombre]
-```
-
-## Verificación de VLANs
-
-```bash
-show vlan brief
-show running-config
-```
