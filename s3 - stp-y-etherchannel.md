@@ -1,8 +1,10 @@
+
 # S3 - STP y EtherChannel
 
 ## STP (Spanning Tree Protocol)
 
 Protocolo de capa 2 que evita bucles en redes conectadas con múltiples caminos entre switches. Cuando hay enlaces redundantes, STP bloquea los puertos que generan bucles y solo deja activa la mejor ruta.
+<img width="609" height="294" alt="designated-bridge-en-STP" src="https://github.com/user-attachments/assets/e7fdabc5-62b6-4212-a2da-7f464a5f14d7" />
 
 ### Conceptos clave
 
