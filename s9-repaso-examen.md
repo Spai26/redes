@@ -1,6 +1,21 @@
 # 📡 Guía de Redes Inalámbricas
 Resumen de conceptos clave: bandas de frecuencia, tipos de redes inalámbricas, antenas, MIMO y configuración de laboratorio.
 
+## Clases de amenazas fisicas
+
+Concepto Definición
+### Vulnerabilidad 
+Es una debibilidad, fallo o error en el diseño, la implementación, la configuración o el uso de un sistema, red, aplicacion o procedimientoLa debilidad existe 
+
+### Amenaza 
+Cualquier evento o acción con el potencial de aprovechar una vulnerabilida para
+comprometer la confidencialidad, la integrida o disposición de los datos y 
+sistemas.
+
+### Ataque 
+Intento deliberado y malintencionado de vulnerar, dañar, interrumpir o robar
+información de sistemas informaticos.
+
 ## 1. Bandas de frecuencia y estándares
 📶 Banda de 2.4 GHz
 |Estándar	|Velocidad máxima|	Características|
